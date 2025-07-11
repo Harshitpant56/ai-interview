@@ -59,7 +59,7 @@ const InterviewCard =  ({
                     </div>
                     <p className="line-clamp-2 mt-5">
                         {feedback?.finalAssessment ||
-                            "You haven't taken this interview yet. Take it now to improve your skills."}
+                            "You haven't taken this Interview yet. Take it now to improve your skills."}
                     </p>
                 </div>
                 <div className="flex flex-row justify-between">
@@ -69,7 +69,7 @@ const InterviewCard =  ({
                             href={
                                 feedback
                                     ? `/interview/${interviewId}/feedback`
-                                    : `/interview/${interviewId}`
+                                    : `/Interview/${interviewId}`
                             }
                         >
                             {feedback ? "Check Feedback" : "View Interview"}
